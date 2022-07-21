@@ -13,6 +13,7 @@ public class Main extends Application {
 		try {
 			VBox root = new VBox();
 			root.getChildren().add(new Label("Brendan's Label"));
+			root.getChildren().add(new Label("Brendan's Branch"));
 			root.getChildren().add(new Label("Ben's Branch"));
 			Scene scene = new Scene(root,400,400);
 			// scene.getStylesheets().add(getClass().getResource("application.css").toExternalForm());
